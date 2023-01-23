@@ -1,0 +1,31 @@
+{
+  "name": "remote-control-rs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "tsc --build; node ./dist/index.js",
+    "start:dev": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nopears/remote-control-rs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nopears/remote-control-rs/issues"
+  },
+  "homepage": "https://github.com/nopears/remote-control-rs#readme",
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.0.0",
+    "typescript": "^4.9.4",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
